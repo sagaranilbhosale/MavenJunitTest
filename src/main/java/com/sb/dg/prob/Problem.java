@@ -11,7 +11,9 @@ import java.util.Set;
 public class Problem {
 
 
-    /*You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+    /*You are given two non-empty linked lists representing two non-negative integers.
+    The digits are stored in reverse order, and each of their nodes contains a single digit.
+    Add the two numbers and return the sum as a linked list.
 
     You may assume the two numbers do not contain any leading zero, except the number 0 itself
 
@@ -44,6 +46,7 @@ Output: [8,9,9,9,0,0,0,1]
 
             ListNode newNode = new ListNode(digit);
             tail.next = newNode;
+            tail = newNode;
 
             l1 = (l1 != null) ? l1.next : null;
             l2 = (l2 != null) ? l2.next : null;
@@ -97,7 +100,7 @@ Output: [8,9,9,9,0,0,0,1]
         // try to extend the range [i, j]
         for (int j = 0, i = 0; j < n; j++) {
             if (map.containsKey(s.charAt(j))) {
-               Math.max(map.get(s.charAt(j)), i);
+               i = Math.max(map.get(s.charAt(j)), i);
             }
             ans = Math.max(ans, j - i + 1);
             map.put(s.charAt(j), j + 1);
@@ -116,7 +119,7 @@ Output: [8,9,9,9,0,0,0,1]
             char r = s.charAt(right);
 
             Integer index = chars[r];
-            if (index != null && index > left && index < right) {
+            if (index != null && index >= left && index < right) {
                 left = index + 1;
             }
 
