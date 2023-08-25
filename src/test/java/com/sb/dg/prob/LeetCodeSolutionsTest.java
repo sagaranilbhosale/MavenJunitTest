@@ -3,6 +3,9 @@ package com.sb.dg.prob;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import static com.sb.dg.prob.LeetCodeSolutions.*;
 
 class LeetCodeSolutionsTest {
@@ -31,5 +34,10 @@ class LeetCodeSolutionsTest {
         Assertions.assertEquals(myAtoi(" 4193 with words"), 4193);
         Assertions.assertEquals(myAtoi("-91283472332"), -2147483648);
         Assertions.assertEquals(myAtoi("+1"), 1);
+    }
+
+    @Test
+    void minAbsoluteDifferenceTest() {
+        Assertions.assertEquals(0, minAbsoluteDifference( Arrays.asList(new Integer[]{4, 3, 2, 4}), 2));
     }
 }
