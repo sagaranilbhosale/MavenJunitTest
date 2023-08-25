@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9945579a-f836-4eae-9d61-362b163fc217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/model/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/ProblemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/MatrixSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/TestTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/LeetCodeSolutionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/MatrixSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/TestTakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +36,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2URMsRfKEqBM1qLeRxh9iX11fy8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,7 +50,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Solutions",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,21 +69,8 @@
       <recent name="com.sb.dg.prob" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProblemTest.lengthOfLongestSubstring">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="MavenJunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemTest.lengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LeetCodeSolutionsTest.testMyAtoi">
+    <configuration name="LeetCodeSolutionsTest.findKthLargest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitTest" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.ProblemTest" />
-      <option name="METHOD_NAME" value="lengthOfLongestSubstring" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeSolutionsTest" />
+      <option name="METHOD_NAME" value="findKthLargest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemTest.testAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCodeSolutionsTest.productExceptSelf1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitTest" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +95,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.ProblemTest" />
-      <option name="METHOD_NAME" value="testAddTwoNumbers" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeSolutionsTest" />
+      <option name="METHOD_NAME" value="productExceptSelf1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCodeSolutionsTest.testMyAtoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeSolutionsTest" />
+      <option name="METHOD_NAME" value="testMyAtoi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.MatrixSearchTest" />
+      <option name="METHOD_NAME" value="test1DMatrix" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixSearchTest.test1DMatrix1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.MatrixSearchTest" />
+      <option name="METHOD_NAME" value="test1DMatrix1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProblemTest.lengthOfLongestSubstring" />
-        <item itemvalue="JUnit.ProblemTest.testAddTwoNumbers" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LeetCodeSolutionsTest.testMyAtoi" />
+        <item itemvalue="JUnit.LeetCodeSolutionsTest.productExceptSelf1" />
+        <item itemvalue="JUnit.LeetCodeSolutionsTest.findKthLargest1" />
+        <item itemvalue="JUnit.MatrixSearchTest" />
+        <item itemvalue="JUnit.MatrixSearchTest.test1DMatrix1" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +170,17 @@
       <updated>1692898147728</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MavenJunitTest$ProblemTest_testAddTwoNumbers.ic" NAME="ProblemTest.testAddTwoNumbers Coverage Results" MODIFIED="1692903666239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
