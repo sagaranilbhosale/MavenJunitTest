@@ -8,14 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9945579a-f836-4eae-9d61-362b163fc217" name="Changes" comment="Tree problem started">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/helper/CompLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/dg/model/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/model/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/LeetCodeSolutionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/LeetCodeSolutionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/LeetCodeTreesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/LeetCodeTreesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,16 +235,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeTrees.java</url>
           <line>42</line>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java</url>
-          <line>277</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeSolutions.java</url>
-          <line>288</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
