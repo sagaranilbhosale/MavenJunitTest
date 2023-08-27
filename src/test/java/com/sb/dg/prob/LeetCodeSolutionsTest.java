@@ -3,7 +3,6 @@ package com.sb.dg.prob;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import static com.sb.dg.prob.LeetCodeSolutions.*;
@@ -38,6 +37,16 @@ class LeetCodeSolutionsTest {
 
     @Test
     void minAbsoluteDifferenceTest() {
-        Assertions.assertEquals(0, minAbsoluteDifference( Arrays.asList(new Integer[]{4, 3, 2, 4}), 2));
+        Assertions.assertEquals(0, minAbsoluteDifference(Arrays.asList(new Integer[]{4, 3, 2, 4}), 2));
+    }
+
+    @Test
+    void testLargestNumber() {
+        Assertions.assertEquals("9534330", largestNumber(new int[]{3, 30, 34, 5, 9}));
+    }
+
+    @Test
+    void testSmallestNumber() {
+        Assertions.assertEquals(103L, smallestNumber(310L));
     }
 }

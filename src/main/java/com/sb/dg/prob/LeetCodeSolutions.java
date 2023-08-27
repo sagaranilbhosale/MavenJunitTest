@@ -1,5 +1,7 @@
 package com.sb.dg.prob;
 
+import com.sb.dg.helper.CompLargest;
+
 import java.util.*;
 import java.util.function.Function;
 
@@ -231,4 +233,88 @@ public class LeetCodeSolutions {
 
         return res;
     }
+
+    /**
+     * Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
+     * <p>
+     * Since the result may be very large, so you need to return a string instead of an integer.
+     * <p>
+     * Example 1:
+     * <p>
+     * Input: nums = [10,2]
+     * Output: "210" <p>
+     * Example 2:
+     * <p>
+     * Input: nums = [3,30,34,5,9]
+     * Output: "9534330"
+     * <p>
+     * Constraints:
+     * <p>
+     * 1 <= nums.length <= 100
+     * 0 <= nums[i] <= 109
+     *
+     * @param nums
+     * @return
+     */
+    public static String largestNumber(int[] nums) {
+        Queue<String> pq = new PriorityQueue<>(new CompLargest());
+        for (int num : nums) {
+            pq.add(String.valueOf(num));
+        }
+
+        if (Objects.equals(pq.peek(), "0"))
+            return "0";
+
+        StringBuilder sb = new StringBuilder();
+
+        while (!pq.isEmpty()) {
+            sb.append(pq.poll());
+        }
+        return sb.toString();
+    }
+
+    public static long smallestNumber(long num) {
+        Comparator<Integer> comp;
+        boolean sign;
+        int zeroCount = 0;
+        if (num > 0) {
+            sign = true;
+            comp = Comparator.naturalOrder();
+        } else if (num < 0) {
+            sign = false;
+            comp = Comparator.reverseOrder();
+        } else {
+            return 0;
+        }
+        Queue<Integer> q = new PriorityQueue<>(comp);
+        num = Math.abs(num);
+
+        while (num > 0) {
+            int digit = (int) (num % 10);
+            if (digit == 0) {
+                zeroCount++;
+            } else {
+                q.add(digit);
+            }
+            num /= 10;
+        }
+
+        long res = q.poll();
+        if (sign) { //Positive number
+            res *= Math.pow(10, zeroCount);
+        }
+        while (!q.isEmpty()) {
+            res *= 10;
+            res += q.poll();
+        }
+
+        if (!sign) { //Negative number
+            res *= Math.pow(10, zeroCount);
+            res *= -1;
+        }
+
+        return res;
+    }
+
+
 }

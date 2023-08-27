@@ -24,23 +24,14 @@ public class TreeNode {
         this.right = right;
     }
 
-    public static void main(String[] args) {
-        Integer[] arr = {3, 9, 20, 8, null, 15, 7};
-
-        TreeNode root = TreeNode.buildTreeFromArray(arr);
-
-        // Now you can work with the 'root' TreeNode object
-        // For example, printing the tree structure
-        printTree(root, "-");
-    }
 
     public static void printTree(TreeNode node, String sep) {
         if (node == null) {
 //            System.out.println(sep + node );
             return;
         }
-        System.out.println(sep + node.getVal() );
         printTree(node.getLeft(), sep +sep );
+        System.out.println(sep + node.getVal() );
         printTree(node.getRight(), sep + sep);
     }
 
