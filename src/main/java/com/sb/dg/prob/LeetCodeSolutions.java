@@ -301,7 +301,7 @@ public class LeetCodeSolutions {
 
         long res = q.poll();
         if (sign) { //Positive number
-            res *= Math.pow(10, zeroCount);
+            res *= (long) Math.pow(10, zeroCount);
         }
         while (!q.isEmpty()) {
             res *= 10;
@@ -309,7 +309,7 @@ public class LeetCodeSolutions {
         }
 
         if (!sign) { //Negative number
-            res *= Math.pow(10, zeroCount);
+            res *= (long) Math.pow(10, zeroCount);
             res *= -1;
         }
 
