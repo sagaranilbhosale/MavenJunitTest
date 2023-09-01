@@ -25,7 +25,7 @@ class ProblemTest {
         l2N2.next = l2N3;
         ListNode listNode = pb.addTwoNumbers(l1N1, l2N1);
 
-        //Assertions.assertEquals(7, listNode.val );
+        Assertions.assertEquals(7, listNode.val );
         Assertions.assertEquals(0, listNode.next.val );
         Assertions.assertEquals(8, listNode.next.next.val );
 
