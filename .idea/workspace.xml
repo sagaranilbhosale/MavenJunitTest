@@ -8,7 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9945579a-f836-4eae-9d61-362b163fc217" name="Changes" comment="Tree problem started">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/dg/prob/StringProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/HIndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/dg/prob/StringProblemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -30,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2URMsRfKEqBM1qLeRxh9iX11fy8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "Solutions",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Solutions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sb.dg.model" />
@@ -71,34 +77,8 @@
       <recent name="com.sb.dg.prob" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCodeSolutionsTest.testSmallestNumber">
-    <configuration name="LeetCodeTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeTrees" />
-      <module name="MavenJunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sb.dg.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.model.TreeNode" />
-      <module name="MavenJunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sb.dg.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCodeSolutionsTest.testLargestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringProblemsTest.convert">
+    <configuration name="HIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenJunitTest" />
       <extension name="coverage">
         <pattern>
@@ -107,51 +87,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeSolutionsTest" />
-      <option name="METHOD_NAME" value="testLargestNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCodeSolutionsTest.testSmallestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenJunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sb.dg.prob.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeSolutionsTest" />
-      <option name="METHOD_NAME" value="testSmallestNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCodeTreesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MavenJunitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sb.dg.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.LeetCodeTreesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.HIndexTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HIndexTest.testCalculateHIndex1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.HIndexTest" />
+      <option name="METHOD_NAME" value="testCalculateHIndex1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HIndexTest.testCalculateHIndex3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.HIndexTest" />
+      <option name="METHOD_NAME" value="testCalculateHIndex3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HIndexTest.testCalculateHIndex4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.HIndexTest" />
+      <option name="METHOD_NAME" value="testCalculateHIndex4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProblemsTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenJunitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.dg.prob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.dg.prob" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.dg.prob.StringProblemsTest" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LeetCodeSolutionsTest.testSmallestNumber" />
-        <item itemvalue="JUnit.LeetCodeSolutionsTest.testLargestNumber" />
-        <item itemvalue="JUnit.LeetCodeTreesTest" />
-        <item itemvalue="Application.LeetCodeTrees" />
-        <item itemvalue="Application.TreeNode" />
+        <item itemvalue="JUnit.StringProblemsTest.convert" />
+        <item itemvalue="JUnit.HIndexTest" />
+        <item itemvalue="JUnit.HIndexTest.testCalculateHIndex4" />
+        <item itemvalue="JUnit.HIndexTest.testCalculateHIndex3" />
+        <item itemvalue="JUnit.HIndexTest.testCalculateHIndex1" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +247,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/LeetCodeTrees.java</url>
           <line>42</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sb/dg/prob/HIndex.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
